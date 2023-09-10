@@ -7,7 +7,7 @@
 ___
 
 <h2>Exemplo com HTML:</h2>
-<img src="img-exemplos/1-exemplo-simples.png">
+<img src="img-exemplos/estrutura-simples/1-exemplo-simples.png">
 
   - Nesse exemplo usamos um **h1** para imprimir um "Olá Mundo!".
   - Nós declaramos o **h1** direto no **body** da estrutura HTML, é algo bem simples más pense se precisassemos imprimir varias vezes o mesmo **h1**, se fosse 2 a 3 vezes seria algo ok, más para reutilizarmos varias vezes seria algo que gastaria muito tempo.
@@ -15,7 +15,7 @@ ___
 ___
 <h2>Exemplo com Webcomponent:</h2> 
   <h4>Estrutura do HTML:</h4>
-  <img src="img-exemplos/2-exemplo-component.png">
+  <img src="img-exemplos/estrutura-simples/2-exemplo-component.png">
 
   - Já usando um webcomponent podemos aproveitar o mesmo **h1** em diversos locais diferentes, tendo que escreve-lo apenas uma vez.
   - Nesse exemplo acima, nós chamamos o web-component "**CardNews**" e ele nos retorna na nossa shadow DOM um **h1** com nosso "**Olá Mundo!**" escrito.
@@ -23,7 +23,7 @@ ___
   
 
   <h4>Estrutura do "CardNews":</h4>
-  <img src="img-exemplos/2.2-component-cardnews.png">
+  <img src="img-exemplos/estrutura-simples/2.2-component-cardnews.png">
 
   - No cardnews nós primeiro criamos a class CardNews, extendendo do elemento HTML "**extends HTML element**".
   - Depois dentro dela chamamos nosso "**Constructor**" e dentro dele o nosso "**super**" e o código do nosso webcomponent.
@@ -37,7 +37,7 @@ ___
   - Irei adicionar mais dois exemplos usando titulo dinamico e props para poder mostrar um pouco mais de dinamica ao nosso webcomponent.
 
   <h3>Usando titulo com dinamismo:</h3>
-  <img src="img-exemplos/3.1-component-titulo-dinamico.png">
+  <img src="img-exemplos/estrutura-simples/3.1-component-titulo-dinamico.png">
 
   <h4>Vamos observar agora a linha 9 e 10:</h4>
 
@@ -56,18 +56,18 @@ ___
   - Nessas linhas nós denominamos que os components "**componentRoot**" e "**style**" são componentes filhos da nossa "**shadowDOM**"
 
   <h4>Retorno dentro do nosso HTML:</h4>
-  <img src="img-exemplos/3.1-component-titulo-dinamico-retorno.png">
+  <img src="img-exemplos/estrutura-simples/3.1-component-titulo-dinamico-retorno.png">
 
   ___
   <h3>Usando Titulo com Props:</h3>
-  <img src="img-exemplos/3.2-component-titulo-props.png">
+  <img src="img-exemplos/estrutura-simples/3.2-component-titulo-props.png">
 
   <h4>Vamos observar a linha 10:</h4>
   
   - Diferente do exemplo anterior, agora atribuimos no nosso "**componentRoot**" que o que será escrito no nosso component será o que vier do "**parametro titulo**" que será declarado no nosso HTML na hora de chamar o nosso webcomponent.
 
   <h4>Estrutura do HTML:</h4>
-  <img src="img-exemplos/3.2-component-titulo-props-html.png">
+  <img src="img-exemplos/estrutura-simples/3.2-component-titulo-props-html.png">
 
   <h4>Vamos observar a linha 20:</h4>
 
@@ -76,7 +76,7 @@ ___
   - Na linha 10 nós dizemos ao HTML de onde esta vindo o nosso "**TituloProps**"
   
   <h4>Retorno dentro do nosso HTML:</h4>
-  <img src="img-exemplos/3.2-component-titulo-props-retorno.png">
+  <img src="img-exemplos/estrutura-simples/3.2-component-titulo-props-retorno.png">
 
   ___
 [Ir para a Estrutura Profissional](https://github.com/henferreirapro/estudos-angular/blob/1-web-components-no-front-end/1-web-components/exemplo-estrutura-profissional.md)
