@@ -35,4 +35,4 @@ ___
 
 [Ir para a Estrutura Profissional](https://github.com/henferreirapro/estudos-angular/blob/1-web-components-no-front-end/1-web-components/exemplo-estrutura-profissional.md)
 
-[Pagina do Exemplo da Estrutura Profissional]()
+[Pagina do Exemplo da Estrutura Profissional](https://henferreirapro.github.io/estudos-angular/)
