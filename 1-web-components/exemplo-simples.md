@@ -79,4 +79,4 @@ ___
   <img src="img-exemplos/3.2-component-titulo-props-retorno.png">
 
   ___
-[Ir para a Estrutura Profissional]()
+[Ir para a Estrutura Profissional](https://github.com/henferreirapro/estudos-angular/blob/1-web-components-no-front-end/1-web-components/exemplo-estrutura-profissional.md)
