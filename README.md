@@ -1,4 +1,4 @@
-<h1 align="center">Root / Roteamento com Angular </h1>
+<h1 align="center">Routes / Roteamento com Angular </h1>
 
   - Os "**roots**" são responsaveis pela navegação da nossa aplicação.
 
