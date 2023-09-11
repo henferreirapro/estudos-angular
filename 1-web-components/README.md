@@ -1,4 +1,4 @@
-<h1>Componentização com web-Components</h1>
+<h1 align="center">Componentização com web-Components</h1>
 
 - Vamos falar um pouco sobre Webcomponents.
 - De forma simplificada, os webcomponents é uma maneira de estruturas nossas paginas e aplicações de forma mais dinamica.
