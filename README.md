@@ -2,6 +2,10 @@
 
   - Aqui iremos falar como uma aplicação Angular é feita e irei destacar o que cada camada do Angular é responsavel por fazer.
 
+  <h3>Como Instalar o Angular na Sua Maquina:</h3>
+
+  - [Instalando Angular]()
+
   <h3>Um Web APP Angular é composto por 4 camadas:</h3>
 
   - [Componentes](https://github.com/henferreirapro/estudos-angular/tree/3-components-angular)
