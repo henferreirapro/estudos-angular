@@ -1,4 +1,4 @@
-<h1 align="center">Components com Angular</h1>
+<h1 align="center">Components Angular</h1>
 
   - Os "**components**" no Angular são responsaveis pela parte visual da nossa aplicação.
 
