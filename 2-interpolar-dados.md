@@ -37,4 +37,7 @@ ___
 
 <h2>Outros Paginas</h2>
 
-  - [Como Criar Um Component Simples](https://github.com/henferreirapro/estudos-angular/blob/3-components-angular/1-criar-component.md)
+  - [Voltar Para a Pagina Sobre Components](https://github.com/henferreirapro/estudos-angular/tree/3-components-angular)
+
+
+  - [Voltar Para a Pagina Como Criar Um Component Simples](https://github.com/henferreirapro/estudos-angular/blob/3-components-angular/1-criar-component.md)

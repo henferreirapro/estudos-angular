@@ -75,3 +75,9 @@ ___
 
 ___
 
+<h2>Outros Paginas</h2>
+
+- [Voltar Para a Pagina Sobre Components](https://github.com/henferreirapro/estudos-angular/tree/3-components-angular)
+
+
+- [Ir Para a Pagina Como Fazer Interpolação de Dados](https://github.com/henferreirapro/estudos-angular/blob/3-components-angular/2-interpolar-dados.md)
