@@ -7,4 +7,4 @@
   - Ao inves de termos uma pagina como todos os "**layouts**" direto no HTML como a "**main, button, card, imagens, paragrafos, um card de notificias**", nós componentizamos e ótimizamos nosso código podendo reutilizar o mesmo component em diversas partes da nossa aplicação.
 
 ___
-- [Como Criar Um Component Simples]()
+- [Como Criar Um Component Simples](https://github.com/henferreirapro/estudos-angular/blob/3-components-angular/criar-component.md)

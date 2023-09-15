@@ -4,11 +4,11 @@
 
   <h3>Os Passos Serão:</h3>
 
-  - [Criação do Component]()
+  - [Criação do Component](https://github.com/henferreirapro/estudos-angular/blob/3-components-angular/criar-component.md#cria%C3%A7%C3%A3o-do-component)
 
-  - [Registrando o Component]()
+  - [Registrando o Component](https://github.com/henferreirapro/estudos-angular/blob/3-components-angular/criar-component.md#registrando-o-component)
 
-  - [Utilizando o Component]()
+  - [Utilizando o Component](https://github.com/henferreirapro/estudos-angular/blob/3-components-angular/criar-component.md#utilizando-o-component)
 
 
 <h2>Criação do Component</h2>
