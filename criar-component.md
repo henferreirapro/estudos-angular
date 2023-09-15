@@ -10,8 +10,8 @@
 
   - [Utilizando o Component]()
 
-___
-<h3>Criação do Component</h3>
+
+<h2>Criação do Component</h2>
 
   Nosso primeiro component é composto de 3 arquivos, os arquivos são:
   - [hello.component.ts]()
@@ -19,7 +19,7 @@ ___
   - [hello.component.css]()
 
   ___
-  <h4>Vamos Observar o hello.component.ts - Arquivo Principal do Component</h4>
+  <h3>Vamos Observar o hello.component.ts - Arquivo Principal do Component</h3>
   <img src="3-components/img/1-criando-component.png">
 
   - Na linha 1 basicamente dizemos que nossa aplicação é uma aplicação Angular e importamos dentro do "**@angular core**" a nossa interface "**component**" que é um objeto do Angular.
@@ -37,7 +37,7 @@ ___
   OBS: Usamos as primeiras letras em maiusculo quando declaramos a classe, estilo "**CamelCase**".
 
   ___
-  <h4>Vamos Observar o hello.component.html - Arquivo HTML do Component</h4>
+  <h3>Vamos Observar o hello.component.html - Arquivo HTML do Component</h3>
   <img src="3-components/img/1.2-criando-component.png">
   
   - Aqui iremos declarar todas as Tags HTML que nossos "**components**" irão compor.
@@ -45,7 +45,7 @@ ___
   - No caso a cima tem apenas um "**h1**" de forma simplificada, más se fosse fazer um menu por exemplo, todas as tags HTML estariam nesse arquivo.
 
   ___
-  <h4>Vamos Observar o hello.component.css - Arquivo CSS do nosso Component</h4>
+  <h3>Vamos Observar o hello.component.css - Arquivo CSS do nosso Component</h3>
   <img src="3-components/img/1.3-criando-component.png">
 
   - De forma basica onde iremos adicionar todos os estilos que nosso component precisar.
@@ -54,7 +54,7 @@ ___
 
 
 ___
-<h3>Registrando o Component</h3>
+<h2>Registrando o Component</h2>
   <img src="3-components/img/2-registrando-component.png">
 
   - Dentro do no "**app.module.ts**" é onde nós iremos "**registrar**" nossos "**components**".
@@ -66,7 +66,7 @@ ___
   - Um ponto legal a observar aqui é que sempre que nós criarmos um component precisaremos registrar ele no nosso "**app.module.ts**", caso contrario a aplicação dará um erro.
 
 ___
-<h3>Utilizando o Component</h3>
+<h2>Utilizando o Component</h2>
   <img src="3-components/img/3-utilizando-component.png">
 
   - Após registrar nosso component dentro do "**app.module.ts**" nós podemos usa-lo dentro do nosso "**app.component.html**".
