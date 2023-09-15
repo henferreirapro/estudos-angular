@@ -41,7 +41,7 @@ ___
 
 Para quem quiser visualizar a pasta criada irei deixar o link abaixo para ir direto para ela.
 
-- [Pasta do Projeto de Exemplo]()
+- [Pasta do Projeto de Exemplo](https://github.com/henferreirapro/estudos-angular/tree/2-introducao-angular/instalando-angular/projeto-exemplo)
 
 ___
 <h2>Veja Mais</h2>
