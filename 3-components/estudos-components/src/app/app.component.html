@@ -4,4 +4,16 @@
 
 <my-button></my-button>
 
+
+<!-- Passando os valores de uma variavel por interpolação-->
+<meu-paragrafo label="{{ textoLabel }}"></meu-paragrafo>
+<meu-paragrafo label="Eu sou uma texto feito direto no Component"></meu-paragrafo>
+
+<!-- Passando os valores direto no component, uma property binding -->
+<meu-paragrafo [label]="paragrafoLabel"></meu-paragrafo>
+<meu-paragrafo [label]="'Outro exemplo de texto direto no Component'"></meu-paragrafo>
+
+
+
+
 <router-outlet></router-outlet>

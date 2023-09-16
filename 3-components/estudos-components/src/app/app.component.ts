@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'estudos-components';
+
+  paragrafoLabel: string = "Salve";
+
+  textoLabel: string = "Eu sou um Exemplo de texto Dinamico hehe";
+  
 }
