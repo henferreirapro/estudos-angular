@@ -10,3 +10,5 @@ ___
 - [Como Criar Um Component Simples](https://github.com/henferreirapro/estudos-angular/blob/3-components-angular/1-criar-component.md)
 
 - [Como Fazer Interpolação de Dados](https://github.com/henferreirapro/estudos-angular/blob/3-components-angular/2-interpolar-dados.md)
+
+- [Como Deixar os Components Mais Dinamicos](https://github.com/henferreirapro/estudos-angular/blob/3-components-angular/3-components-dinamicos.md)

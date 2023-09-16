@@ -1,4 +1,4 @@
-<h1>Deixando o Component Reutilizavel / Dinamico</h1>
+<h1 align="center">Deixando o Component Reutilizavel / Dinamico</h1>
 
   - Iremos agora deixar nossos "**Components**" mais dinamicos, passando o que será "**impresso**" diretamente no "**Component**"
 
