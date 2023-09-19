@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component({
   selector: "my-button",
@@ -7,6 +7,10 @@ import { Component } from "@angular/core";
 })
 
 export class ButtonComponent {
+  // add input para texto dinamico - Data Binding
+  @Input() msgButton: string = "";
+
+  // Parametros
   buttonText: string = "ACESSAR";
   buttonNumber: number = 2;
   buttonList: string[] = ["VENDER", "COMPRAR"];
@@ -14,4 +18,8 @@ export class ButtonComponent {
     label: "Adicionar ao Carrinho",
   };
 
+  // Add evento
+  eventoAlerta() {
+    alert(this.msgButton);
+  }
 }
