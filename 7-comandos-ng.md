@@ -18,12 +18,12 @@
     Exemplo: ng new "**nome do projeto**"
 
   ___
-  - <h4> ng generate ou ng g:</h4>
+  - <h4> ng generate component ou ng g component :</h4>
 
     Ele cria a "**estrutura de um componente base**", com os "**arquivos TS, HTML e CSS**" e com todos os códigos base igual estavamos criando manualmente.
   
-    Exemplo: ng generate "nome do componente"
-    <br> Exemplo Simplificado: ng g "nome do componente"
+    Exemplo: ng generate component "nome do componente"
+    <br> Exemplo Simplificado: ng g component "nome do componente"
 
     "**OBS**": podemos ao inves de digitar "**generate**" apenas digitar "** **" que o Angular já entende que se trata de uma abreviação do comando "**generate**".
 
