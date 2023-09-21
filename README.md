@@ -14,3 +14,7 @@ ___
 - [Como Deixar os Components Mais Dinamicos](https://github.com/henferreirapro/estudos-angular/blob/3-components-angular/3-components-dinamicos.md)
 
 - [Como Criar e Usar Eventos](https://github.com/henferreirapro/estudos-angular/blob/3-components-angular/4-event-binding.md)
+
+- [Como Usar two Way Data Binding](https://github.com/henferreirapro/estudos-angular/blob/3-components-angular/5-two-way-data-binding.md)
+
+- [Como Usar Style Binding](https://github.com/henferreirapro/estudos-angular/blob/3-components-angular/6-style-bindig.md)
