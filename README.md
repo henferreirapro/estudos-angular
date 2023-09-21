@@ -18,3 +18,5 @@ ___
 - [Como Usar two Way Data Binding](https://github.com/henferreirapro/estudos-angular/blob/3-components-angular/5-two-way-data-binding.md)
 
 - [Como Usar Style Binding](https://github.com/henferreirapro/estudos-angular/blob/3-components-angular/6-style-bindig.md)
+
+- [Como Usar os Comandos do NG](https://github.com/henferreirapro/estudos-angular/blob/3-components-angular/7-comandos-ng.md)
