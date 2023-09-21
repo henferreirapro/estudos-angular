@@ -8,4 +8,7 @@ import { Component } from "@angular/core";
 
 export class BlocoNotasComponent {
   placeholder: string = "texto do nosso TS";
+
+  // Style Binding
+  corFundo: string = "rgb(164, 192, 196)";
 }
