@@ -1,0 +1,26 @@
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(250, 234, 215);
+  width: 50%;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0 0 .625rem .625rem;
+  
+}
+
+input {
+  /* border-radius: .175rem; */
+  padding: .4rem;
+  border: 0;
+  outline: 0;
+}
+
+p {
+  background-color: rgb(196, 182, 164);
+  padding: 1.2rem 1rem ;
+  margin-bottom: .3rem;
+  border-radius: 0 0 .275rem .275rem;
+  width: 93%;
+}

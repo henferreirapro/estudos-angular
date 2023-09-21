@@ -1,0 +1,12 @@
+<section>
+  <!-- input do texto -->
+  <input 
+    type="text"
+    [value]="placeholder" 
+    (input)="placeholder = $any($event.target).value"
+  >
+  
+  <!-- resultado -->
+  <p>{{ placeholder }}</p>
+</section>
+
