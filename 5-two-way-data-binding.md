@@ -45,3 +45,7 @@
   <img src="3-components/img/7.3-two-way-data-binding.png">
 
 ___
+<h2>Outros Paginas</h2>
+
+  - [Voltar Para a Pagina Sobre Components](https://github.com/henferreirapro/estudos-angular/tree/3-components-angular)
+

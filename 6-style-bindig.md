@@ -27,3 +27,7 @@
   <img src="3-components/img/8.1-style-binding.png">
 
 ___
+<h2>Outros Paginas</h2>
+
+  - [Voltar Para a Pagina Sobre Components](https://github.com/henferreirapro/estudos-angular/tree/3-components-angular)
+
