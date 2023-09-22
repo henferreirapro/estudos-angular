@@ -12,7 +12,7 @@ ___
 
   <h4>Os 8 Hooks são :</h4> 
   
-  - [On Init]()
+  - [On Init](https://github.com/henferreirapro/estudos-angular/blob/4-gerenciamento-estados-angular/1-oninit.md)
 
   - [On changes]()
 
