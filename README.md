@@ -4,3 +4,29 @@
 
   - Um bom exemplo seria atualizar um carrinho de compras, quando clicamos no botão de adicionar um item ao carrinho isso faz o "**component do botão**" adicionar um item e mudar o estado do "**component do carrinho**", adicionando um novo item a esse "**component**".
 
+___
+___
+<h3>Life Cycle Hooks</h3>
+
+  - Os "**lifes cycles hooks**" ou ciclos de vida do nosso "**Component**" Angular é composto de "**8 estados**", ou "**8 hooks**", que são os estados diferentes que o nosso "**component**" pode ter durante a "**sua vida ou utilização**".
+
+  <h4>Os 8 Hooks são :</h4> 
+  
+  - [On Init]()
+
+  - [On changes]()
+
+  - [Do Check]()
+
+  - [After Content Init]()
+
+  - [After Content Checked]()
+
+  - [After View Init]()  
+
+  - [After View Checked]()
+
+  - [On Destroy]()
+
+___
+

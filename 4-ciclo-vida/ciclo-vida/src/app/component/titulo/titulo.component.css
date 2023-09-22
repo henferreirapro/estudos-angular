@@ -1,0 +1,13 @@
+section {
+  background-color: bisque;
+  margin: .5rem;
+  padding: .5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+p {
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
