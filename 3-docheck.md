@@ -1,4 +1,4 @@
-<h1 align="center">DoCheck e seus Sub-Eventos</h1>
+<h1 align="center">DoCheck e Seus Sub-Eventos</h1>
 
   - O "**DoCheck**" sempre é chamado quando temos uma alteração no nosso componente / aplicação.
 
