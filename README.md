@@ -14,7 +14,7 @@ ___
   
   - [On Init](https://github.com/henferreirapro/estudos-angular/blob/4-gerenciamento-estados-angular/1-oninit.md)
 
-  - [On changes]()
+  - [On changes](https://github.com/henferreirapro/estudos-angular/blob/4-gerenciamento-estados-angular/2-onchanges.md)
 
   - [Do Check]()
 
