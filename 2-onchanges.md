@@ -34,3 +34,6 @@
 
 ___
 ___
+<h2>Outros Paginas</h2>
+
+[Voltar Para Pagina Inicial de Gerenciamento de Estados](https://github.com/henferreirapro/estudos-angular/tree/4-gerenciamento-estados-angular)
