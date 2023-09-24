@@ -16,7 +16,7 @@ ___
 
   - [On changes](https://github.com/henferreirapro/estudos-angular/blob/4-gerenciamento-estados-angular/2-onchanges.md)
 
-  - [Do Check]()
+  - [Do Check](https://github.com/henferreirapro/estudos-angular/blob/4-gerenciamento-estados-angular/3-docheck.md)
 
   - [After Content Init]()
 
