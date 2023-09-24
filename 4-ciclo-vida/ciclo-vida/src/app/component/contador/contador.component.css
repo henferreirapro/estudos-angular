@@ -1,0 +1,45 @@
+section {
+  width: 50%;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: .325rem;
+}
+
+span {
+  font-size: 2rem;
+  margin: .5rem;
+  padding: 1rem 4rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+hr {
+  width: 9rem;
+  margin: 0;
+  margin-bottom: .5rem;
+}
+
+.btn {
+  flex-direction: row;
+}
+
+button {
+  font-size: 1.375rem;
+  /* font-weight: 600; */
+  margin: .5rem;
+  margin-bottom: 1rem;
+  padding: .5rem 1.4rem;
+  border-radius: .465rem;
+  
+}
+
+.menor {
+  background-color: rgb(255, 146, 127);
+}
+
+.maior {
+  background-color: rgb(153, 255, 127);
+}
