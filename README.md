@@ -16,15 +16,7 @@ ___
 
   - [On changes](https://github.com/henferreirapro/estudos-angular/blob/4-gerenciamento-estados-angular/2-onchanges.md)
 
-  - [Do Check](https://github.com/henferreirapro/estudos-angular/blob/4-gerenciamento-estados-angular/3-docheck.md)
-
-  - [After Content Init]()
-
-  - [After Content Checked]()
-
-  - [After View Init]()  
-
-  - [After View Checked]()
+  - [Do Check e Seus Sub-Eventos](https://github.com/henferreirapro/estudos-angular/blob/4-gerenciamento-estados-angular/3-docheck.md)
 
   - [On Destroy]()
 
