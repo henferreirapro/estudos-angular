@@ -18,7 +18,7 @@ ___
 
   - [Do Check e Seus Sub-Eventos](https://github.com/henferreirapro/estudos-angular/blob/4-gerenciamento-estados-angular/3-docheck.md)
 
-  - [On Destroy]()
+  - [On Destroy](https://github.com/henferreirapro/estudos-angular/blob/4-gerenciamento-estados-angular/4-ondestroy.md)
 
 ___
 
