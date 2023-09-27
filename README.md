@@ -27,3 +27,4 @@ ___
   
   - [Renderização](https://github.com/henferreirapro/estudos-angular/tree/6-renderizacao-angular)
   
+  - [Diretivas](https://github.com/henferreirapro/estudos-angular/tree/7-diretivas-angular)
