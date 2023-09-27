@@ -35,6 +35,7 @@
   - [ngFor]() : <br>
   Repete um elemento para cada item em uma lista.
 
+  ___
   - [ngSwitch]() : <br>
   Utilizado para alternar entre comportamentos alternativos de um elemento ou componente.
 
