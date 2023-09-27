@@ -1,9 +1,10 @@
 
-<!-- <app-titulo></app-titulo> -->
+<app-titulo></app-titulo>
 
-<!-- <app-titulo msgAlternativa="Sou uma mensagem diferente da primeira"></app-titulo> -->
+<app-titulo msgAlternativa="Sou uma mensagem diferente da primeira"></app-titulo>
 
-<app-contador></app-contador>
+<app-contador *ngIf="isAliveContador"></app-contador>
 
+<button (click)="mudarEstado()">{{ msgBtn }}</button>
 
 <router-outlet></router-outlet>

@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ciclo-vida';
+
+  isAliveContador: boolean = true;
+  msgBtn: string = "Finalizar Contador";
+
+
+  mudarEstado():void {
+    this.isAliveContador = false;
+    
+  }
 }

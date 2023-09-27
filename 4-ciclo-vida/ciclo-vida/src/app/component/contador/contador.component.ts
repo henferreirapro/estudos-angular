@@ -70,7 +70,7 @@ export default class ContadorComponent implements
   }
   
   ngOnDestroy(): void {
-    console.log('Method not implemented.');
+    console.log("Meu Ciclo acabou por aqui meus amigos 🤗 \nFoi uma grande honra, até a próxima 😘");
   }
   
 }
