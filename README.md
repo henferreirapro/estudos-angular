@@ -28,7 +28,7 @@
   ___
   <h3>Diretivas Estruturais :</h3>
 
-  - [ngif]() : <br>
+  - [ngIf]() : <br>
   Condicional que verifica se algum "**componente / elemento**" deve ser "**visualizado ou não**".
 
   ___
