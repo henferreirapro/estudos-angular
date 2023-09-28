@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'projeto-diretivas';
+
+  // Mensagem que irá aparecer na tag P do component
+  nomeCard: string = "";
+  
+
+  // ngIf com data binding
+  isAliveCard: boolean = true;
+
+
+  // ngIf com ng template
+  isAliveNgTemplate: boolean = true;
+
 }

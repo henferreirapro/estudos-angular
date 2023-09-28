@@ -1,4 +1,30 @@
 <h1>Diretivas do Angular</h1>
 
+<app-card nomeCard="Eu Sou o Card 1"></app-card>
+
+
+<!-- ngIf simples -->
+<app-card 
+  nomeCard="Eu Sou o ngIf simples" 
+  *ngIf="true"
+></app-card>
+
+
+<!-- ngIf com Data Biding -->
+<app-card
+  nomeCard="Eu sou o ngIf com Data Biding"
+  *ngIf="isAliveCard"
+></app-card>
+
+
+<!-- ngIf com ng template -->
+<ng-template [ngIf]="isAliveNgTemplate">
+  <app-card
+    nomeCard="Eu sou um Bloco secreto do ng Template"
+
+  >
+  </app-card>
+</ng-template>
+
 
 <router-outlet></router-outlet>

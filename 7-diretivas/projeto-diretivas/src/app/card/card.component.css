@@ -1,0 +1,14 @@
+* {
+  background-color: antiquewhite;
+  margin: .5rem;
+}
+
+section {
+  padding: .5rem;
+  border-radius: .425rem;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
