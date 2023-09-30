@@ -32,7 +32,7 @@
   Condicional que verifica se algum "**componente / elemento**" deve ser "**visualizado ou não**".
 
   ___
-  - [ngFor]() : <br>
+  - [ngFor](https://github.com/henferreirapro/estudos-angular/blob/7-diretivas-angular/2-ngfor.md) : <br>
   Repete um elemento para cada item em uma lista.
 
   ___
