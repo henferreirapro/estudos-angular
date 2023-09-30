@@ -47,4 +47,35 @@
 
   ___
   ___
+  <h2>Usando ngFor com Reatividade</h2>
+  <img src="7-diretivas/img/3-ngfor-reatividade.png">
+
+  - Na "**linhas 27**" nós criamos a função "**adicionar( )**", quando ela for chamada irá adicionar um novo item a nossa lista produtos, no exemplo irá adicionar uma string "**Novo Produto**".
+
+  - Na "**linha 32**" criamos a função "**remover ()**" que assim que for chamada irá excluir o ultimo item da lista produtos que for encontrado.
+
+  ___
+  <h3>Adicionando as Funções no Nosso HTML :</h3>
+  <img src="7-diretivas/img/3.1-ngfor-reatividade.png">
+
+  - Nas "**linhas 10 e 11**" nós criamos duas "**tags button**" que recebem um "**evento click**" e dentro dele passamos a função "**adicionar e remover**".
+
+  - Então assim que clicarmos em adicionar nossa lista irá receber um "Novo Produto" e de forma reativa o nosso ngFor já irá renderiza-lo na nossa tela.
+
+  - E quando clicarmos em remover o ultimo item ele sumirá da nossa lista mostrada na tela.
+
+  - Nesse exemplo usei uma string para adicionar ou remover más as nossas funções podem ser utilizadas de forma dinamica passando atributos a ela sem a necessidade de declarar diretamente.
+
+  ___
+  <h3>Renderização ao Clicar na Opção de Adicionar :</h3>
+  <img src="7-diretivas/img/3.2-ngfor-reatividade.png">
+
+  ___
+  <h3>Renderização ao Clicar na Opção de Remover :</h3>
+  
+  <img src="7-diretivas/img/3.3-ngfor-reatividade.png">
+  
+  ___
+  ___
+  <h2>Usando ngFor com Index</h2>
   

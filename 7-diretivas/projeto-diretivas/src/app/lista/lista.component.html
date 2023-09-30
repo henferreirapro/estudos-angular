@@ -6,5 +6,9 @@
     <li *ngFor="let item of produtos">{{ item }}</li>
   </ul>
 
+  <!-- Add Reatividade ao nosso Componente -->
+  <button class="adicionar" (click)="adicionar()">Adicionar um <br> Novo Item</button>
+  <button class="remover" (click)="remover()">Remover o <br> Ultimo Item</button>
+
 
 </section>

@@ -21,4 +21,17 @@ export class ListaComponent {
       "Mouse"
     ]
   }
+
+
+  // Add reatividade ao nosso componente
+  adicionar(){
+    // .push adiciona um item ao final da lista.
+    this.produtos.push("Novo Produto");
+  }
+
+  remover(){
+    // .pop remove o ultimo item da lista.
+    this.produtos.pop()
+  }
+
 }

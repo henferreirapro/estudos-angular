@@ -12,3 +12,31 @@ p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+
+
+/* Estilo dos botões */
+button {
+  padding: .5rem;
+  border-radius: .325rem;
+  border: none;
+  color: rgb(244, 250, 255);
+  font-weight: bold;
+}
+
+.adicionar {
+  background-color: rgb(50, 194, 31);
+  transition: .6s;
+}
+
+.adicionar:hover {
+  background-color: rgb(38, 150, 24);
+}
+
+.remover {
+  background-color: rgb(219, 78, 78);
+  transition: .6s;
+}
+
+.remover:hover {
+  background-color: rgb(204, 41, 41);
+}
