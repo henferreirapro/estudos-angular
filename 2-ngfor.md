@@ -79,3 +79,46 @@
   ___
   <h2>Usando ngFor com Index</h2>
   
+  - Podemos acessar o index dos itens de uma lista utilizando a palavra "**index**" dentro do nosso "**ngFor**".
+
+  - Isso é util para "**sabermos a posição de cada item da lista**" que recebemos e até utilizarmos de forma dinamica para "**adicionar ou remover**" os itens desejados por exemplo, ou utilizar a localização de outras formas.
+
+  ___
+  <h3>Usando o Index dentro do ngFor no HTML :</h3>
+  <img src="7-diretivas/img/4-ngfor-index.png">
+
+  - Na "**linha 6**" nós adicionamos uma "**let i**" que receberá o "**index**" dos elementos da nossa lista produtos.
+
+  - Na "**linha 7**" eu adicionei a "**let i + 1**" para que ao inves de começar pelo "**item 0 ele mostrasse o item 0 como item 1**", más isso não afeta no número do index original.
+
+  - Na linha 8 criamos um button que receberá um evento "**click removerIndex()**" e dentro dele adicionamos a "**let i**", dessa forma o "**ngFor**" irá colocar a "**númeração de cada index**".
+
+  ___
+  <h3>Criando a função removerIndex( ) no Arquivo TS :</h3>
+  <img src="7-diretivas/img/4.1-ngfor-index.png">
+
+  - Na "**linha 39**" nós criamos a nossa função "**removerIndex( )**" e dizemos a ela que ela receberá um "**index e ele é do tipo number**".
+
+  - Na "**linha 41**" nós chamamos a função "**splice( )**" que serve para remover itens pela sua localização de cada item da nossa lista produtos.
+
+  - E dentro do "**splice( )**" nós passamos que a "**localização será o index**" e que iremos "**remover apenas 1 vez**".
+
+  ___
+  <h3>CSS do Button de Lixeira criado :</h3>
+  <img src="7-diretivas/img/4.2-ngfor-index.png">
+
+  - Criei apenas um background simples e quando passamos o mouse por cima usamos o houver para escurecer um pouco a cor. 
+
+  ___
+  <h3>Retorno da Nossa Lista com Index :</h3>
+  <img src="7-diretivas/img/4.3-ngfor-index.png">
+
+  ___
+  <h3>Após Clicar na Lixeira do Item CPU :</h3>
+  <img src="7-diretivas/img/4.4-ngfor-index.png">
+
+___
+___
+<h2>Outras Paginas :</h2>
+
+[Voltar Para a Pagina Sobre Diretivas](https://github.com/henferreirapro/estudos-angular/tree/7-diretivas-angular)

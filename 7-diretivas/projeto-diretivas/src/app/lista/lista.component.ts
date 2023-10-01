@@ -34,4 +34,12 @@ export class ListaComponent {
     this.produtos.pop()
   }
 
+
+  // Usando Index
+  removerIndex(index: number){
+    // splice() remove um elemento apartir da localização desse elemento.
+    this.produtos.splice(index, 1) 
+    
+    // Aqui digo que desejo remover o item index uma vez, por isso o número 1 ao lado.
+  }
 }

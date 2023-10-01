@@ -40,3 +40,14 @@ button {
 .remover:hover {
   background-color: rgb(204, 41, 41);
 }
+
+.lixeira {
+  background-color: rgba(240, 240, 240, 0.63);
+  border: .1rem solid;
+  padding: .3rem;
+}
+
+.lixeira:hover {
+  background-color: rgba(224, 212, 212, 0.63);
+  transition: .4s;
+}
