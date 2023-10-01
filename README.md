@@ -36,7 +36,7 @@
   Repete um elemento para cada item em uma lista.
 
   ___
-  - [ngSwitch]() : <br>
+  - [ngSwitch](https://github.com/henferreirapro/estudos-angular/blob/7-diretivas-angular/3-ngswitch.md) : <br>
   Utilizado para alternar entre comportamentos alternativos de um elemento ou componente.
 
 ___
