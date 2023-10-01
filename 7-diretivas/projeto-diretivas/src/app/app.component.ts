@@ -19,4 +19,7 @@ export class AppComponent {
   // ngIf com ng template
   isAliveNgTemplate: boolean = true;
 
+  // Tipo de Usuario do Switch
+  tipoUsuario: string = "";
+
 }

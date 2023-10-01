@@ -1,0 +1,48 @@
+* {
+  background-color: rgb(250, 215, 248);
+  margin: .5rem;
+}
+
+section {
+  padding: .5rem;
+  border-radius: .425rem;
+}
+
+h2, p {
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+}
+
+hr {
+  margin-top: .5rem;
+}
+
+li {
+  padding: .5rem;
+}
+
+ul {
+  margin: 1rem;
+}
+
+
+/* Usuario Comum */
+.usuarioComum, li {
+  background-color: bisque;
+  border-radius: .235rem;
+}
+
+
+/* Usuario Admin */
+.usuarioAdmin, .usuarioAdmin li {
+  background-color: rgb(206, 255, 196);
+  border-radius: .235rem;
+}
+
+
+/* Super Usuario */
+.superUsuario, .superUsuario li {
+  background-color: rgb(196, 215, 255);
+  border-radius: .235rem;
+}

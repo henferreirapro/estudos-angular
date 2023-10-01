@@ -1,0 +1,38 @@
+<section>
+  <h2>menu-usuarios works!</h2>
+  <p>{{ nomeCard }}</p>
+  <hr>
+
+  <section [ngSwitch]="tipoUsuario">
+    <!-- Usuario Comum -->
+    <article *ngSwitchDefault="'comum'">
+      <ul class="usuarioComum" >
+        <li>Editar Perfil</li>
+        <li>Adicionar Cartão</li>
+        <li>Visualizar Perfil</li>
+      </ul>
+    </article>
+
+    <!-- Admin -->
+    <article *ngSwitchCase="'admin'">
+      <ul class="usuarioAdmin" >
+        <li>Editar Perfil</li>
+        <li>Adicionar Cartão</li>
+        <li>Visualizar Perfil</li>
+        <li>Gerenciar Usuarios</li>
+      </ul>
+    </article>
+
+    <!-- Super Usuario -->
+    <article *ngSwitchCase="'super'">
+      <ul class="superUsuario">
+        <li>Editar Perfil</li>
+        <li>Adicionar Cartão</li>
+        <li>Visualizar Perfil</li>
+        <li>Gerenciar Usuarios</li>
+        <li>Gerenciar Admins</li>
+      </ul>
+    </article>
+
+  </section>
+</section>
