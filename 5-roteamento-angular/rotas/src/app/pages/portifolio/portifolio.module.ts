@@ -8,6 +8,9 @@ import { CardConteudoComponent } from './card-conteudo/card-conteudo.component';
   declarations: [
     CardConteudoComponent
   ],
+  exports: [
+    CardConteudoComponent
+  ],
   imports: [
     CommonModule
   ]
