@@ -2,11 +2,13 @@ nav {
   /* border: solid green; */
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .containerNave {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   padding: .5rem;
   
 }
@@ -16,6 +18,10 @@ a, li  {
   list-style-type: none;
   padding: .4rem;
   font-weight: 450;
+}
+
+hr {
+  border-color: rgba(117, 108, 97, 0.767);
 }
 
 .linkAtivado {
