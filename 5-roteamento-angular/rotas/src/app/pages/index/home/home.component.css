@@ -1,0 +1,9 @@
+.containerHome {
+  display: flex;
+  justify-content: center;
+  padding: .5rem 2.5rem;
+}
+
+h1 {
+  text-align: center;
+}
