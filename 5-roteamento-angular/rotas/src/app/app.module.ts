@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 
 import { HomeModule } from './pages/index/home.module';
 import { PortifolioModule } from './pages/portifolio/portifolio.module';
+import { MenuNavComponent } from './components/menu-nav/menu-nav.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MenuNavComponent
   ],
   imports: [
     BrowserModule,
