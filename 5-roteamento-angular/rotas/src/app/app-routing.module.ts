@@ -4,8 +4,15 @@ import { HomeComponent } from './pages/index/home/home.component';
 import { CardConteudoComponent } from './pages/portifolio/card-conteudo/card-conteudo.component';
 
 const routes: Routes = [
+  // rota para a pagina inicial do nosso projeto
   {path: "", component: HomeComponent, pathMatch: "full" },
-  {path: "portifolio", component: CardConteudoComponent, pathMatch: "prefix"}
+
+  // rota para a pagina de portifolios do nosso projeto
+  {path: "portifolio", component: CardConteudoComponent, pathMatch: "prefix"},
+  
+  // rota coringa caso seja digitado uma rota inexistente
+  {path: "**", redirectTo: ""}
+  
 ];
 
 @NgModule({
