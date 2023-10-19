@@ -1,5 +1,5 @@
 nav {
-  border: solid green;
+  /* border: solid green; */
   display: flex;
   flex-direction: row;
 }
