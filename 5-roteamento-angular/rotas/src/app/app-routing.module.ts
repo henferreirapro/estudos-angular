@@ -8,6 +8,9 @@ const routes: Routes = [
   {path: "", component: HomeComponent, pathMatch: "full" },
 
   // rota para a pagina de portifolios do nosso projeto
+  {path: "portifolio", component: CardConteudoComponent, pathMatch: "prefix"},
+  
+  // rota para a pagina de portifolios más com id para recuperar dados 
   {path: "portifolio/:id", component: CardConteudoComponent, pathMatch: "prefix"},
   
   // rota coringa caso seja digitado uma rota inexistente

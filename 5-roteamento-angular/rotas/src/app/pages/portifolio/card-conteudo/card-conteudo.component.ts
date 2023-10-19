@@ -13,7 +13,11 @@ export class CardConteudoComponent {
     this.dadosDaRota.params.subscribe(
       response => console.log(response)
     )
-    
+
+    // Recuperando dados usando QueryParams
+    this.dadosDaRota.queryParams.subscribe(
+      res => console.log(res)
+    )
   }
 
 }
