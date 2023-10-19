@@ -1,11 +1,22 @@
 <nav>
   <section class="containerNave">
-    <a [routerLink]="['/']">
-      <li>HOME</li>
-    </a>
+    <li>
+      <a 
+        [routerLink]="['/']" 
+        [routerLinkActive]="['linkAtivado']"
+        [routerLinkActiveOptions]="{exact: true}"
+      >HOME</a>  
+    </li>
+
     <hr>
-    <a [routerLink]="['/portifolio']">
-      <li>PORTIFOLIO</li>
-    </a>
+
+    <li>
+      <a 
+        [routerLink]="['/portifolio']" 
+        [routerLinkActive]="['linkAtivado']"
+        [routerLinkActiveOptions]="{exact: true}"
+      >PORTIFOLIO</a>
+    </li>
+
   </section>
 </nav>

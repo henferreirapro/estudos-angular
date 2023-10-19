@@ -8,11 +8,18 @@ nav {
   display: flex;
   flex-direction: row;
   padding: .5rem;
-  text-decoration: none;
-  list-style-type: none;
   
 }
 
-li {
-  padding: .5rem;
+a, li  {
+  text-decoration: none;
+  list-style-type: none;
+  padding: .4rem;
+  font-weight: 450;
+}
+
+.linkAtivado {
+  background-color: rgba(165, 196, 185, 0.329);
+  font-weight: bold;
+  border-radius: .275rem;
 }
