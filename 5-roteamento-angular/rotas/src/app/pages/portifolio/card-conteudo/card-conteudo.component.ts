@@ -1,5 +1,6 @@
-import { Component, OnChanges, OnInit, SimpleChanges } from '@angular/core';
+import { Component, OnChanges, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-card-conteudo',
@@ -21,19 +22,24 @@ export class CardConteudoComponent implements OnInit, OnChanges{
     this.dadosDaRota.queryParams.subscribe(
       res => console.log(res)
     )
+
+    // add a rota para recuperar as querys do filhos/children
+    this.dadosDaRota.firstChild?.params.subscribe(
+      res => console.log(res)
+    )
   }
 
   ngOnInit(): void {
     
     // ira forçar o retorno para a pagina inicial depois de 5s
     setInterval( () => {
-      this.navegador.navigate(["/"])
+      // this.navegador.navigate(["/"])
     }, 5000)
   }
 
   ngOnChanges(): void { 
     setInterval( () => {
-      this.navegador.navigate(["/"])
+      // this.navegador.navigate(["/"])
     }, 3000)
   }
 

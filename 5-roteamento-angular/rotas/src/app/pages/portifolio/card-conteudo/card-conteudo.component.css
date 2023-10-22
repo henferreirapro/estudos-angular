@@ -1,3 +1,9 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .containerConteudo {
   display: flex;
   justify-content: center;
@@ -6,4 +12,40 @@
 
 h2 {
   text-align: center;
+}
+
+/* Filhos */
+.containerFilhos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+li, a {
+  background-color: rgb(91, 148, 145);
+  list-style-type: none;
+  text-decoration: none;
+
+}
+
+li {
+  /* border: solid green; */
+  margin: .5rem 1rem;
+  padding: 3rem 5rem;
+  border-radius: .4rem;
+  text-align: center;
+}
+
+hr {
+  width: 98%;
+}
+
+
+/* MEDIA QUERYS */
+@media screen and (min-width: 768px) {
+  .containerFilhos {
+    display: flex;
+    flex-direction: row;
+  }
 }
