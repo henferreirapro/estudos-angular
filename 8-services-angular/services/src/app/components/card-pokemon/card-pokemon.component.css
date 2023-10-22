@@ -1,0 +1,58 @@
+/* Containers do componente */
+.containerPokemon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(93, 223, 198);
+  margin: .5rem 2rem;
+  border-radius: .210rem;
+  width: 18rem;
+}
+
+.containerTituloPokemon {
+  /* border: solid blue; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem;
+  padding: 1rem .2rem;
+  height: 5rem;
+
+}
+
+.containerAtributos {
+  align-self: center;
+  margin: .5rem;
+  padding: 1rem;
+
+}
+
+/* Dados do Pokemon */
+.nomePokemon {
+  font-size: 2rem;
+  color: aliceblue;
+}
+
+.numeroPokemon {
+  font-size: .8rem;
+  color: rgb(229, 241, 252);
+  padding-top: rem;
+}
+
+.containerImagem {
+  align-self: center;
+  background-color: rgb(101, 241, 213);
+  padding: 1rem;
+  border-radius: .5rem;
+}
+
+.tipoPokemonSpan {
+  margin:  1rem;
+  padding: .5rem 1rem;
+  border-radius: .876rem;
+  background-color: rgb(66, 202, 175);
+  color: rgb(244, 255, 255);
+  font-weight: bolder;
+  font-size: 1.2rem;
+  
+}
