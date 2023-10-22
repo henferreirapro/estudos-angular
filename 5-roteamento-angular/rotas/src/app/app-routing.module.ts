@@ -8,10 +8,14 @@ const routes: Routes = [
   {path: "", component: HomeComponent, pathMatch: "full" },
 
   // rota para a pagina de portifolios do nosso projeto
-  {path: "portifolio", component: CardConteudoComponent, pathMatch: "prefix"},
+  {path: "portifolio", component: CardConteudoComponent,children: [
+    // filhos da path portifolio
+    {path: ":id", component: CardConteudoComponent},
+    {path: ":id/:user", component: CardConteudoComponent}
+  ]},
   
   // rota para a pagina de portifolios más com id para recuperar dados 
-  {path: "portifolio/:id", component: CardConteudoComponent, pathMatch: "prefix"},
+  {path: "portifolio/:id", component: CardConteudoComponent},
   
   // rota coringa caso seja digitado uma rota inexistente
   {path: "**", redirectTo: ""}
